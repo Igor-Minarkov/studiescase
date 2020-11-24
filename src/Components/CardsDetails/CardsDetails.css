@@ -1,0 +1,117 @@
+.CardDetails-wrapper {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+.CardDetails-wrapper .CardDetails-Cards {
+  width: 70%;
+  margin: 0 20px;
+}
+.cardDetails-Card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.cardDetails-Card img {
+  width: 30px;
+  height: 30px;
+}
+.cardDetails-heading {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(34, 34, 34);
+}
+.cardDetails-heading h4 {
+  margin: 0;
+}
+.cardDetails-heading p {
+  margin: 0;
+  background-color: #f9dba2;
+  color: #e7bb70;
+}
+.cardDetails-p p {
+  text-align: justify;
+  color: black;
+  padding: 20px;
+}
+.Banner {
+  width: 20%;
+  height: 40%;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 0;
+  padding: 10px;
+  color: black;
+}
+.Banner h3 {
+  text-align: left;
+  font-weight: bold;
+}
+.Banner h5 {
+  text-align: left;
+  margin: 0;
+}
+.Banner p {
+  text-align: justify;
+  margin: 0;
+}
+.Banner button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10% 0;
+  padding: 5% 3%;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+  background-color: #f6f7fb;
+}
+.Banner img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 791px) {
+  .CardDetails-wrapper {
+    padding: 0 20px;
+  }
+  .CardDetails-Cards {
+    width: 100%;
+  }
+  .cardDetails-heading {
+    width: 90%;
+    display: block;
+  }
+  .Banner {
+    height: 650px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .CardDetails-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .Banner {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+  }
+
+  .CardDetails-Cards {
+    width: 90% !important;
+    margin: 20px auto !important;
+  }
+
+  .cardDetails-heading {
+    width: 90%;
+    display: block;
+  }
+}

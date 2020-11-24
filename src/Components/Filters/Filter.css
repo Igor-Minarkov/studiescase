@@ -1,0 +1,55 @@
+.Filter-form {
+  justify-content: center;
+  margin: 30px 0 40px 0;
+}
+
+.Filter-form input {
+  display: none;
+}
+.filter-ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.filter-ul li label {
+  background: #f6f7fb;
+  color: #fff;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  color: gray;
+}
+.filter-ul li {
+  list-style-type: none;
+}
+
+input:checked ~ label {
+  background: black;
+  padding: 2px 25px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .filter-ul li label {
+    padding: 3px 5px;
+    right: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .filter-ul {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .filter-ul li label {
+    padding: 5px 60px;
+  }
+}

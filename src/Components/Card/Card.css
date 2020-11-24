@@ -1,0 +1,87 @@
+.CardSingle {
+  animation: rotation 3s ease-in-out;
+  -webkit-animation: rotation 3s ease-in-out;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(340deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.CardSingle a {
+  text-decoration: none;
+}
+
+.CardSingle figure figcaption {
+  color: black;
+  padding: 20px 0 0 0 !important;
+}
+
+.CardSingle figure figcaption h6 {
+  text-align: left;
+  margin: 0;
+  padding: 5px 10px;
+}
+.CardSingle figure figcaption p {
+  text-align: justify;
+  font-size: 12px;
+  padding: 4px 10px;
+  margin: 0;
+}
+
+.CardSingle figure figcaption span p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 12px;
+  margin: 0;
+  border-top: 1px solid#F6F7FB;
+  padding: 7px 0;
+}
+
+/* Horizontal cards */
+
+.horizontal-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.horizontal-card {
+  width: 90%;
+  border-radius: 8px;
+  border: none;
+  background-color: #fafbfc;
+  color: #58595b;
+  margin: 0 auto;
+}
+.horizontal-card h5 {
+  text-align: right;
+  margin: 0;
+  padding: 7px 15px;
+}
+
+.horizontal-card h4 {
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+}
+.horizontal-card p {
+  text-align: left;
+  padding: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  @keyframes rotation {
+    from {
+      transform: 0;
+    }
+    to {
+      transform: 0;
+    }
+  }
+}

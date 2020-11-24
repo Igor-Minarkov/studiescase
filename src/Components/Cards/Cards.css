@@ -1,0 +1,37 @@
+.Cards-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+ul.Cards {
+  padding: 0;
+}
+
+li {
+  margin: 10px 10px;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Cards img {
+  width: 303px;
+  height: 250px;
+  left: 0;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 10px 15px #a8b4fc30;
+}
