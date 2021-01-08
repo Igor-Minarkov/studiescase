@@ -4,4 +4,4 @@ This is the Project 03 from Brainster Academy.
 up and down!
 
 Technologies and Frameworks:
-React Js  / React Hooks and Context Api with custom hooks.
+React Js  / React Hooks and Context Api with custom hooks, with separated CSS files.
