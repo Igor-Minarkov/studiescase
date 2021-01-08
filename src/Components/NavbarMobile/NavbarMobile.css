@@ -16,7 +16,7 @@
     flex-wrap: nowrap;
     list-style-type: none;
   }
-  .navMobile-wrapper ul a{
+  .navMobile-wrapper ul a {
     color: grey;
   }
   .navMobile-wrapper button {
@@ -69,9 +69,6 @@
     font-size: 12x;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .Header h2 h5 {
-    font-size: 14px;
   }
   .navMobile-wrapper button {
     margin-bottom: 20px;

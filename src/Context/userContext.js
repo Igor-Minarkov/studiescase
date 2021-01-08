@@ -367,7 +367,7 @@ const imgs = [
     id: 8,
     tag: "Marketing",
     src:
-      "https://beintheknow.co/wp-content/uploads/2016/01/Marketing-Tools.jpg",
+      "https://www.elegantthemes.com/blog/wp-content/uploads/2019/03/digital-marketing-strategy-featured-image.jpg",
     desc:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed inventore aspernatur doloremque recusandae quibusdam eaque iste neque iusto repellendus, asperiores laudantium exercitationem harum hic repellat beatae magni voluptatem? Non, quibusdam!",
     lectures: [

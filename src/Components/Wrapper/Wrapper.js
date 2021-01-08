@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import Header from "../Header/Header";
+import Intro from "../Intro/Intro";
 import Home from "../Home/Home";
 import CardDetails from "../CardsDetails/CardsDetails";
 import NavbarMobile from "../NavbarMobile/NavbarMobile";
@@ -12,7 +12,7 @@ function Wrapper() {
       <Router>
         <Navbar />
         <NavbarMobile />
-        <Header />
+        <Intro />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/Details/:id" component={CardDetails} />
